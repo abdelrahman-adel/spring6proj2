@@ -1,4 +1,4 @@
-package com.master.spring.spring6proj1.database.springdata;
+package com.master.spring.spring6proj2.database.springdata;
 
 import java.util.Date;
 import java.util.List;
@@ -10,7 +10,7 @@ import javax.persistence.TypedQuery;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.master.spring.spring6proj1.database.entities.Person;
+import com.master.spring.spring6proj2.database.entities.Person;
 
 /**
  * This is the implementation of the custom repository, it adds the

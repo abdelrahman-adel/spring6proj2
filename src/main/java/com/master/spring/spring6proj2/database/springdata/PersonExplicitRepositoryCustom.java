@@ -1,9 +1,9 @@
-package com.master.spring.spring6proj1.database.springdata;
+package com.master.spring.spring6proj2.database.springdata;
 
 import java.util.Date;
 import java.util.List;
 
-import com.master.spring.spring6proj1.database.entities.Person;
+import com.master.spring.spring6proj2.database.entities.Person;
 
 /**
  * This is a custom repository to be extended by the predefined repository, to

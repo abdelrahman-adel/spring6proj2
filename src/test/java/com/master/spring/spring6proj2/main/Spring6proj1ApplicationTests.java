@@ -1,4 +1,4 @@
-package com.master.spring.spring4proj1.main;
+package com.master.spring.spring6proj2.main;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

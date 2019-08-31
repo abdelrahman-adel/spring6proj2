@@ -1,4 +1,4 @@
-package com.master.spring.spring6proj1.database.jdbc;
+package com.master.spring.spring6proj2.database.jdbc;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -10,7 +10,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
-import com.master.spring.spring6proj1.database.entities.Person;
+import com.master.spring.spring6proj2.database.entities.Person;
 
 @Repository
 public class PersonJdbcDao {

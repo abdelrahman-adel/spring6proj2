@@ -1,4 +1,4 @@
-package com.master.spring.spring6proj1.main;
+package com.master.spring.spring6proj2.main;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 
-import com.master.spring.spring6proj1.database.entities.Person;
-import com.master.spring.spring6proj1.database.jdbc.PersonJdbcDao;
+import com.master.spring.spring6proj2.database.entities.Person;
+import com.master.spring.spring6proj2.database.jdbc.PersonJdbcDao;
 
 //@SpringBootApplication(scanBasePackages = "com.master.spring.spring6proj1")
 public class SpringJdbcApp implements CommandLineRunner {

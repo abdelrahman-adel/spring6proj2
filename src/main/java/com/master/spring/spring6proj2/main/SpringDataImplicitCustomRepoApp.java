@@ -1,4 +1,4 @@
-package com.master.spring.spring6proj1.main;
+package com.master.spring.spring6proj2.main;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -11,8 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 
-import com.master.spring.spring6proj1.database.entities.Person;
-import com.master.spring.spring6proj1.database.springdata.PersonImplicitRepositoryCustom;
+import com.master.spring.spring6proj2.database.entities.Person;
+import com.master.spring.spring6proj2.database.springdata.PersonImplicitRepositoryCustom;
 
 /**
  * We need <code>@EntityScan</code> to give it the package where it should scan

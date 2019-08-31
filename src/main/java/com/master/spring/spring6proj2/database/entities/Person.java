@@ -1,4 +1,4 @@
-package com.master.spring.spring6proj1.database.entities;
+package com.master.spring.spring6proj2.database.entities;
 
 import java.util.Date;
 

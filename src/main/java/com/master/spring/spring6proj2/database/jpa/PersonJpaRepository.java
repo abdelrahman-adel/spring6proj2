@@ -1,4 +1,4 @@
-package com.master.spring.spring6proj1.database.jpa;
+package com.master.spring.spring6proj2.database.jpa;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import javax.persistence.TypedQuery;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.master.spring.spring6proj1.database.entities.Person;
+import com.master.spring.spring6proj2.database.entities.Person;
 
 /**
  * <code>@Transactional</code> annotation manages transactions, if a transaction
