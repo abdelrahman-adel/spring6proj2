@@ -13,7 +13,7 @@ import org.springframework.boot.SpringApplication;
 import com.master.spring.spring6proj2.database.entities.Person;
 import com.master.spring.spring6proj2.database.jdbc.PersonJdbcDao;
 
-//@SpringBootApplication(scanBasePackages = "com.master.spring.spring6proj1")
+//@SpringBootApplication(scanBasePackages = "com.master.spring.spring6proj2")
 public class SpringJdbcApp implements CommandLineRunner {
 
 	@Autowired

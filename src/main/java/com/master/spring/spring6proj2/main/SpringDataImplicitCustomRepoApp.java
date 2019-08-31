@@ -10,6 +10,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import com.master.spring.spring6proj2.database.entities.Person;
 import com.master.spring.spring6proj2.database.springdata.PersonImplicitRepositoryCustom;
@@ -24,9 +27,9 @@ import com.master.spring.spring6proj2.database.springdata.PersonImplicitReposito
  * @author Abd-Elrahman Adel
  *
  */
-//@EntityScan(basePackages = "com.master.spring.spring6proj1.database.entities")
-//@EnableJpaRepositories(basePackages = "com.master.spring.spring6proj1")
-//@SpringBootApplication(scanBasePackages = "com.master.spring.spring6proj1")
+@EntityScan(basePackages = "com.master.spring.spring6proj2.database.entities")
+@EnableJpaRepositories(basePackages = "com.master.spring.spring6proj2")
+@SpringBootApplication(scanBasePackages = "com.master.spring.spring6proj2")
 public class SpringDataImplicitCustomRepoApp implements CommandLineRunner {
 
 	@Autowired

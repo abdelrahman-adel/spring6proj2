@@ -20,8 +20,8 @@ import com.master.spring.spring6proj2.database.jpa.PersonJpaRepository;
  * @author Abd-Elrahman Adel
  *
  */
-//@EntityScan(basePackages = "com.master.spring.spring6proj1.database.entities")
-//@SpringBootApplication(scanBasePackages = "com.master.spring.spring6proj1")
+//@EntityScan(basePackages = "com.master.spring.spring6proj2.database.entities")
+//@SpringBootApplication(scanBasePackages = "com.master.spring.spring6proj2")
 public class SpringJpaApp implements CommandLineRunner {
 
 	@Autowired

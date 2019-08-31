@@ -24,9 +24,9 @@ import com.master.spring.spring6proj2.database.springdata.PersonRepository;
  * @author Abd-Elrahman Adel
  *
  */
-//@EntityScan(basePackages = "com.master.spring.spring6proj1.database.entities")
-//@EnableJpaRepositories(basePackages = "com.master.spring.spring6proj1")
-//@SpringBootApplication(scanBasePackages = "com.master.spring.spring6proj1")
+//@EntityScan(basePackages = "com.master.spring.spring6proj2.database.entities")
+//@EnableJpaRepositories(basePackages = "com.master.spring.spring6proj2")
+//@SpringBootApplication(scanBasePackages = "com.master.spring.spring6proj2")
 public class SpringDataApp implements CommandLineRunner {
 
 	@Autowired
