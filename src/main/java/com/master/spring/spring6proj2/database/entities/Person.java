@@ -14,7 +14,7 @@ import javax.persistence.NamedQuery;
  * table name, so there is no need to write <code>@Table(name = "person")</code>
  * 
  * @author aadel
- *
+ * 
  */
 @Entity
 @NamedQueries(value = { @NamedQuery(name = "findAll", query = "select p from Person p"),
